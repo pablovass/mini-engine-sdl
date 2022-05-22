@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" "D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug
