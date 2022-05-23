@@ -1,8 +1,8 @@
-# Install script for directory: D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05
+# Install script for directory: D:/DEVELOP/C_PLUS_PLUS/mini-engine-sdl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/04")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/06")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/DEVELOP/C_PLUS_PLUS/mini-engine-sdl/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

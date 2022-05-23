@@ -47,5 +47,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/05.dir/DependInfo.cmake"
+  "CMakeFiles/mini-engine-sdl.dir/DependInfo.cmake"
   )

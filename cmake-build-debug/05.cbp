@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug"/>
+				<Option working_dir="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="05">
-				<Option output="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug/05.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug"/>
+				<Option output="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/cmake-build-debug/05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -35,15 +35,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 05"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 05"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="05/fast">
-				<Option output="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug/05.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug"/>
+				<Option output="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/cmake-build-debug/05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -59,64 +59,64 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 05/fast"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 05/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug"/>
+				<Option working_dir="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug"/>
+				<Option working_dir="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\DEVELOP\C_PLUS_PLUS\SDL\SDL Game Development Reference\02 Drawing in SDL\06\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/main.cpp">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/main.cpp">
 			<Option target="05"/>
 		</Unit>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/src/Game.cpp">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/src/Game.cpp">
 			<Option target="05"/>
 		</Unit>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/src/Hero.cpp">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/src/Hero.cpp">
 			<Option target="05"/>
 		</Unit>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/src/Hero.h">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/src/Hero.h">
 			<Option target="05"/>
 		</Unit>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/src/engine/Animation.cpp">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/src/engine/Animation.cpp">
 			<Option target="05"/>
 		</Unit>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/src/engine/Animation.h">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/src/engine/Animation.h">
 			<Option target="05"/>
 		</Unit>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/src/engine/Texture.cpp">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/src/engine/Texture.cpp">
 			<Option target="05"/>
 		</Unit>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/src/engine/Texture.h">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/src/engine/Texture.h">
 			<Option target="05"/>
 		</Unit>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/src/header/Game.h">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/src/header/Game.h">
 			<Option target="05"/>
 		</Unit>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/src/header/SDL_Exception.h">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/src/header/SDL_Exception.h">
 			<Option target="05"/>
 		</Unit>
-		<Unit filename="D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/CMakeLists.txt">
+		<Unit filename="D:/DEVELOP/C_PLUS_PLUS/SDL/SDL Game Development Reference/02 Drawing in SDL/06/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,3 +1,3 @@
-D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug/CMakeFiles/05.dir
-D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/DEVELOP/PracticaCPlusPlus/SDL/SDL Game Development Reference/02 Drawing in SDL/05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/DEVELOP/C_PLUS_PLUS/mini-engine-sdl/cmake-build-debug/CMakeFiles/mini-engine-sdl.dir
+D:/DEVELOP/C_PLUS_PLUS/mini-engine-sdl/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DEVELOP/C_PLUS_PLUS/mini-engine-sdl/cmake-build-debug/CMakeFiles/rebuild_cache.dir

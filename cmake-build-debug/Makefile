@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05"
+CMAKE_SOURCE_DIR = D:\DEVELOP\C_PLUS_PLUS\mini-engine-sdl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug"
+CMAKE_BINARY_DIR = D:\DEVELOP\C_PLUS_PLUS\mini-engine-sdl\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\CMakeFiles" "D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DEVELOP\C_PLUS_PLUS\mini-engine-sdl\cmake-build-debug\CMakeFiles D:\DEVELOP\C_PLUS_PLUS\mini-engine-sdl\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DEVELOP\C_PLUS_PLUS\mini-engine-sdl\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -106,24 +106,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 05
+# Target rules for targets named mini-engine-sdl
 
 # Build rule for target.
-05: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) 05
-.PHONY : 05
+mini-engine-sdl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) mini-engine-sdl
+.PHONY : mini-engine-sdl
 
 # fast build rule for target.
-05\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\build
-.PHONY : 05\fast
+mini-engine-sdl\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\build
+.PHONY : mini-engine-sdl\fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -131,7 +131,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -139,7 +139,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\main.cpp.s
 .PHONY : main.cpp.s
 
 src\Game.obj: src\Game.cpp.obj
@@ -147,7 +147,7 @@ src\Game.obj: src\Game.cpp.obj
 
 # target to build an object file
 src\Game.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\Game.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\Game.cpp.obj
 .PHONY : src\Game.cpp.obj
 
 src\Game.i: src\Game.cpp.i
@@ -155,7 +155,7 @@ src\Game.i: src\Game.cpp.i
 
 # target to preprocess a source file
 src\Game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\Game.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\Game.cpp.i
 .PHONY : src\Game.cpp.i
 
 src\Game.s: src\Game.cpp.s
@@ -163,7 +163,7 @@ src\Game.s: src\Game.cpp.s
 
 # target to generate assembly for a file
 src\Game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\Game.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\Game.cpp.s
 .PHONY : src\Game.cpp.s
 
 src\Hero.obj: src\Hero.cpp.obj
@@ -171,7 +171,7 @@ src\Hero.obj: src\Hero.cpp.obj
 
 # target to build an object file
 src\Hero.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\Hero.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\Hero.cpp.obj
 .PHONY : src\Hero.cpp.obj
 
 src\Hero.i: src\Hero.cpp.i
@@ -179,7 +179,7 @@ src\Hero.i: src\Hero.cpp.i
 
 # target to preprocess a source file
 src\Hero.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\Hero.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\Hero.cpp.i
 .PHONY : src\Hero.cpp.i
 
 src\Hero.s: src\Hero.cpp.s
@@ -187,56 +187,104 @@ src\Hero.s: src\Hero.cpp.s
 
 # target to generate assembly for a file
 src\Hero.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\Hero.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\Hero.cpp.s
 .PHONY : src\Hero.cpp.s
 
-src\engine\Animation.obj: src\engine\Animation.cpp.obj
-.PHONY : src\engine\Animation.obj
+src\engine\graphics\Animation.obj: src\engine\graphics\Animation.cpp.obj
+.PHONY : src\engine\graphics\Animation.obj
 
 # target to build an object file
-src\engine\Animation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\engine\Animation.cpp.obj
-.PHONY : src\engine\Animation.cpp.obj
+src\engine\graphics\Animation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\graphics\Animation.cpp.obj
+.PHONY : src\engine\graphics\Animation.cpp.obj
 
-src\engine\Animation.i: src\engine\Animation.cpp.i
-.PHONY : src\engine\Animation.i
+src\engine\graphics\Animation.i: src\engine\graphics\Animation.cpp.i
+.PHONY : src\engine\graphics\Animation.i
 
 # target to preprocess a source file
-src\engine\Animation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\engine\Animation.cpp.i
-.PHONY : src\engine\Animation.cpp.i
+src\engine\graphics\Animation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\graphics\Animation.cpp.i
+.PHONY : src\engine\graphics\Animation.cpp.i
 
-src\engine\Animation.s: src\engine\Animation.cpp.s
-.PHONY : src\engine\Animation.s
+src\engine\graphics\Animation.s: src\engine\graphics\Animation.cpp.s
+.PHONY : src\engine\graphics\Animation.s
 
 # target to generate assembly for a file
-src\engine\Animation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\engine\Animation.cpp.s
-.PHONY : src\engine\Animation.cpp.s
+src\engine\graphics\Animation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\graphics\Animation.cpp.s
+.PHONY : src\engine\graphics\Animation.cpp.s
 
-src\engine\Texture.obj: src\engine\Texture.cpp.obj
-.PHONY : src\engine\Texture.obj
+src\engine\graphics\Texture.obj: src\engine\graphics\Texture.cpp.obj
+.PHONY : src\engine\graphics\Texture.obj
 
 # target to build an object file
-src\engine\Texture.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\engine\Texture.cpp.obj
-.PHONY : src\engine\Texture.cpp.obj
+src\engine\graphics\Texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\graphics\Texture.cpp.obj
+.PHONY : src\engine\graphics\Texture.cpp.obj
 
-src\engine\Texture.i: src\engine\Texture.cpp.i
-.PHONY : src\engine\Texture.i
+src\engine\graphics\Texture.i: src\engine\graphics\Texture.cpp.i
+.PHONY : src\engine\graphics\Texture.i
 
 # target to preprocess a source file
-src\engine\Texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\engine\Texture.cpp.i
-.PHONY : src\engine\Texture.cpp.i
+src\engine\graphics\Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\graphics\Texture.cpp.i
+.PHONY : src\engine\graphics\Texture.cpp.i
 
-src\engine\Texture.s: src\engine\Texture.cpp.s
-.PHONY : src\engine\Texture.s
+src\engine\graphics\Texture.s: src\engine\graphics\Texture.cpp.s
+.PHONY : src\engine\graphics\Texture.s
 
 # target to generate assembly for a file
-src\engine\Texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\src\engine\Texture.cpp.s
-.PHONY : src\engine\Texture.cpp.s
+src\engine\graphics\Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\graphics\Texture.cpp.s
+.PHONY : src\engine\graphics\Texture.cpp.s
+
+src\engine\input\InputHandler.obj: src\engine\input\InputHandler.cpp.obj
+.PHONY : src\engine\input\InputHandler.obj
+
+# target to build an object file
+src\engine\input\InputHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\input\InputHandler.cpp.obj
+.PHONY : src\engine\input\InputHandler.cpp.obj
+
+src\engine\input\InputHandler.i: src\engine\input\InputHandler.cpp.i
+.PHONY : src\engine\input\InputHandler.i
+
+# target to preprocess a source file
+src\engine\input\InputHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\input\InputHandler.cpp.i
+.PHONY : src\engine\input\InputHandler.cpp.i
+
+src\engine\input\InputHandler.s: src\engine\input\InputHandler.cpp.s
+.PHONY : src\engine\input\InputHandler.s
+
+# target to generate assembly for a file
+src\engine\input\InputHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\input\InputHandler.cpp.s
+.PHONY : src\engine\input\InputHandler.cpp.s
+
+src\engine\input\Keyboard.obj: src\engine\input\Keyboard.cpp.obj
+.PHONY : src\engine\input\Keyboard.obj
+
+# target to build an object file
+src\engine\input\Keyboard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\input\Keyboard.cpp.obj
+.PHONY : src\engine\input\Keyboard.cpp.obj
+
+src\engine\input\Keyboard.i: src\engine\input\Keyboard.cpp.i
+.PHONY : src\engine\input\Keyboard.i
+
+# target to preprocess a source file
+src\engine\input\Keyboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\input\Keyboard.cpp.i
+.PHONY : src\engine\input\Keyboard.cpp.i
+
+src\engine\input\Keyboard.s: src\engine\input\Keyboard.cpp.s
+.PHONY : src\engine\input\Keyboard.s
+
+# target to generate assembly for a file
+src\engine\input\Keyboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\src\engine\input\Keyboard.cpp.s
+.PHONY : src\engine\input\Keyboard.cpp.s
 
 # Help Target
 help:
@@ -246,7 +294,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 05
+	@echo ... mini-engine-sdl
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -256,12 +304,18 @@ help:
 	@echo ... src/Hero.obj
 	@echo ... src/Hero.i
 	@echo ... src/Hero.s
-	@echo ... src/engine/Animation.obj
-	@echo ... src/engine/Animation.i
-	@echo ... src/engine/Animation.s
-	@echo ... src/engine/Texture.obj
-	@echo ... src/engine/Texture.i
-	@echo ... src/engine/Texture.s
+	@echo ... src/engine/graphics/Animation.obj
+	@echo ... src/engine/graphics/Animation.i
+	@echo ... src/engine/graphics/Animation.s
+	@echo ... src/engine/graphics/Texture.obj
+	@echo ... src/engine/graphics/Texture.i
+	@echo ... src/engine/graphics/Texture.s
+	@echo ... src/engine/input/InputHandler.obj
+	@echo ... src/engine/input/InputHandler.i
+	@echo ... src/engine/input/InputHandler.s
+	@echo ... src/engine/input/Keyboard.obj
+	@echo ... src/engine/input/Keyboard.i
+	@echo ... src/engine/input/Keyboard.s
 .PHONY : help
 
 

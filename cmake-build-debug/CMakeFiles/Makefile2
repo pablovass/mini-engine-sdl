@@ -43,16 +43,16 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05"
+CMAKE_SOURCE_DIR = D:\DEVELOP\C_PLUS_PLUS\mini-engine-sdl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug"
+CMAKE_BINARY_DIR = D:\DEVELOP\C_PLUS_PLUS\mini-engine-sdl\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles\05.dir\all
+all: CMakeFiles\mini-engine-sdl.dir\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -60,34 +60,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles\05.dir\clean
+clean: CMakeFiles\mini-engine-sdl.dir\clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/05.dir
+# Target rules for target CMakeFiles/mini-engine-sdl.dir
 
 # All Build rule for target.
-CMakeFiles\05.dir\all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target 05"
-.PHONY : CMakeFiles\05.dir\all
+CMakeFiles\mini-engine-sdl.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DEVELOP\C_PLUS_PLUS\mini-engine-sdl\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target mini-engine-sdl"
+.PHONY : CMakeFiles\mini-engine-sdl.dir\all
 
 # Build rule for subdir invocation for target.
-CMakeFiles\05.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\CMakeFiles" 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\DEVELOP\PracticaCPlusPlus\SDL\SDL Game Development Reference\02 Drawing in SDL\05\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles\05.dir\rule
+CMakeFiles\mini-engine-sdl.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DEVELOP\C_PLUS_PLUS\mini-engine-sdl\cmake-build-debug\CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DEVELOP\C_PLUS_PLUS\mini-engine-sdl\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles\mini-engine-sdl.dir\rule
 
 # Convenience name for target.
-05: CMakeFiles\05.dir\rule
-.PHONY : 05
+mini-engine-sdl: CMakeFiles\mini-engine-sdl.dir\rule
+.PHONY : mini-engine-sdl
 
 # clean rule for target.
-CMakeFiles\05.dir\clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\05.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\05.dir\clean
-.PHONY : CMakeFiles\05.dir\clean
+CMakeFiles\mini-engine-sdl.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mini-engine-sdl.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\mini-engine-sdl.dir\clean
+.PHONY : CMakeFiles\mini-engine-sdl.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
